@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conceptos- HTML</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	 <link rel="stylesheet" href="css/styles.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div class="title"><h1 id="pagina1">HTML</h1>
+<p>Hypertext Markup Lenguaje</p></div>
+
+<article>
+	<h2>1. Algo de Historia</h2>
+
+		<ul>
+			<li>Tim Lee crea HTML</li>
+			<li>1989 Inica el desarrollo</li>
+			<li>1192 Lanzamiento de HTML
+			<li>Creacion W3C: RAE del Internet</li>
+			<li>1998 HTML4</li>
+			<li>HTML5</li>
+		</ul>
+</article>
+			
+
+<article>
+	<h2>2. Funcionalidades de HTML5:</h2>
+
+		<ul>
+			
+			<li>Web Semnatica: Elementos especificos</li>
+			<li>Local Storage; : datos guradados offline</li>
+			<li>Accceso al dispositivo: Camara Microfono</li>
+			<li>Web-Sockets:Conexion bidireccional con el servidor(Al enviar una url y enviar una peticion sin recargar: EjemploNotificacion de Facebook)</li>
+			<li>Multimedia: Audios y videos sin Flash</li>
+			<li>Graficos: SVG,Canvas, etc desde el navegador</li>
+			<li>CCS3:Diseño</li>
+			
+		</ul>
+</article>
+	
+
+<article>
+	<h2>3. Los Navegadores</h2>
+		<ul>
+			<li>1993: Mosaic</li>
+			<li>1994: Netscape</li>
+			<li>1995:Internet Explorer</li>
+			<li>1996:Opera</li>
+			<li>2003:Safari</li>
+			<li>2004:Mozilla Firefox</li>
+			<li>2008: Google Chrome</li>
+			<li>Actualidad :PWA, ChromeBook, Electron, Ionic, REact Native, Web components</li>
+			
+		</ul>
+
+	<h3>DOM: Document Object Model</h3>
+	<p>Es un arbol genealogico de etiquetas:  html es la etiqueta padre y "head" es una etiqueta derivada </p>
+</article>
+
+<main> <!-- Contenido principal del html -->
+
+
+<article>
+	<h2 >4. Etiquetas de Contenido o elementos de bloque</h2>
+		<p>Ocupan espacio en toda la pantalla con un salto de línea</p>
+			<figure>Rompen el flujo del contenido</figure>
+			<blockquote>Se utiliza para citar</blockquote>
+			<section></section>
+			<article></article>
+			<pre> Toma espacios
+			y lineas de salto
+			</pre>
+			<div>Contenedor no tiene una funcion en especial</div>
+
+</article>
+
+<article>
+ 	<h2>5. Listas</h2>
+ 		<p>Listas Desordenadas</p>
+
+ 	<ul>
+ 		<li>Fresa</li>
+ 		<li>Manzana</li>
+ 		<li>Pera</li>
+ 	</ul>
+
+ 	<p>Listas Ordenadas</p>
+ 	<ol>
+ 		<li>Levantarme temprano</li>
+ 		<li>Ir a la escuela</li>
+ 		<li>Volver a casa</li>
+ 		<li>Dormir</li>
+ 	</ol>
+
+ 	<p>Listas de definición</p>
+ 	<dl>
+ 		<dt>Animales:</dt>
+ 		<dd>Carnivoros</dd>
+ 		<dd>Herviboros</dd>
+ 		<dd>Omnivoros</dd>
+
+ 	</dl>
+</article>
+
+<article>
+ 	<h2 >6. Elementos de línea</h2>
+
+	<p>Ocupan espacio en toda la pantalla con un salto de línea</p> <br>
+	<small>Letra pequeña</small><br>
+	<strong>Letra en negrita</strong><br>
+	<em>Letra para enfatizar</em><br>
+	<cite>Etiqueta para citar</cite><br>
+	<dfn>Explicar algo(Definicion de siglas)</dfn><br>
+	<code>Código</code><br>
+	<data>Mostrar  datos 123</data><br>
+	<q>Igual que el blockquote</q><br>
+	<del>Texto eliminado : Ej: Precios</del><br>
+	<wbr>Palabra muy larga crea un salto de linea <br>
+	<span>Igual que el div pero en línea</span><br>
+	<u>Texto subrayado</u><br>
+	Etiqueta Superindice Ej:<sup> exponentes</sup><br>
+	<time>12:25</time><br>
+	<mark>Texto resaltado</mark>
+	<!--<hr> Crea una linea horizontal -->
+
+
+	<p>Los Enlaces pueden utilizar rutas: Relativas y Absolutas</p>
+	<p>Las rutas absolutas son las que muestran toda la ruta completa de un archivo , las relativas se indican desde la ubicacion del archivo que las esta enlazando</p>
+</article>
+
+<article>
+	<h2 >7. Los Marcadores</h2>
+	<p>Son enlaces externos a lugares de la misma página ó a otras páginas</p>
+	<a href="#pagina1">Enlace a la misma Pagina</a><br>
+	<a href="./index.html#capitulo2"> Enlaces externos</a><br>
+</article>
+
+<article>
+	<h2>8. Las Imágenes</h2>
+	<p>Existen dos tipos de imágenes: Mapa de Bits y Vectores</p>
+
+	<table>
+		
+		<thead>
+			<tr>
+				<th>Mapa de bits</th>
+				<th>Vectores</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Formados por pixeles, es decir puntos de color</td>
+				<td>Fórmulas matemáticas que dibujan algo</td>
+			</tr>
+			<tr>
+				<td>Tienen un ancho y un alto</td>
+				<td>Al hacer zoom no se perturba la imagen</td>
+			</tr>
+			<tr>
+				<td>Sus formatos son: 
+					<ul>
+						<li>PNG: que tienen transparencia y son en color plano </li>
+						<li>JPG: Usadas para fotografía,sin transparencia</li>
+						<li>Webp: Inventado por Google y combina las dos anteriores, no todos los navegadores lo soportan</li>
+						<li>Por último los Gifs</li>
+					</ul>
+				</td>
+
+				<td>Sus formatos son SVG y es usado para íconos y logotipos</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>Herramientas: Para las imágenes libres de autor consultar: <a href="https://www.pexels.com/">pexels.com</a></p>
+</article>
+
+<article>
+
+	<h2>9. Viewport y device pixel ratio</h2>
+	<p>El viewport es la cantidad de espacio para diseñar una aplicación. 
+	Es diferente la densidad a los pixeles de la pantalla ya que existen más pixeles de los que da la resolución,
+	 así las pantallas son nítidas</p>
+
+	<p>El device pixel ratio es la relación entre pixeles reales y pixeles de viewport. 
+	Para hallarlos solo Inspeccionamos la página y en la consola del navegador escribimos "devicepixelratio"</p>
+
+	<p>El dato que imprime la consola se multiplica por cada píxel real , es decir que si el pixelratio es=3 ,
+	 por cada pixel de viewport hay 3 pixeles reales</p>
+
+	<p>Ejemplo: Iphone 10, su resolución es <code>375*812 </code> y su deviceRatio =3. Para que una imagen se vea nítida necesita una cantidad 3 veces mayor a la de viewport: <code>375*3=1125 </code> y <code>812*3=2436</code></p>
+	<p> Esto aplica con los teléfonos, para los computadores el devicePixelRatio será igual a 1</p>
+
+	<p>Para solucionar el dPR en los distintos dispositivosse usa el atributo srcset</p>
+
+	<!-- Forma1 -->
+
+	<img src="img/cactus.jpeg" 
+	srcset="img/chica.jpeg 800w, 
+			img/piramide.jpeg 500w" width="250px" >
+
+
+	<!-- Forma 2 y más óptima -->
+
+	<picture>
+		<!-- Se usa tanto srcset como media(para controlar el tamaño de pantalla). -->
+		<source srcset="img/cactus.jpeg" media="(max-width: 700px)" width="250px">
+		<source srcset="img/chica.jpeg" media="(max-width: 500px)" width="250px">
+			<!-- Imagen por defecto si no cumple con ninguna regla -->
+		<source srcset="img/piramide.jpeg" width="250px">
+			<!-- Imagen por defecto si el navegador no soporta la etiqueta picture -->
+		<img src="img/piramide.jpeg" alt="imagen por defecto" width="250px" />
+	</picture>
+
+	<p>Notas importantes: Usar Firefox para ver el resultado, se leen las medidas de arriba abajo asíque deben ordenarse de mayor a menor, A la hora de descargar en los dispositivos solo toma la img que cumpla con la condición , ahorrando memoria  </p>
+
+</article>
+
+<article>
+
+	<h2>10. Microdatos y OpenGraph</h2>
+	<p>Los microdatos son atributos para identificar cada elemento en un contenido
+	<a href="https://schema.org/">Schema.org</a></p><p>Define los estándar de microdatos, mejorando y optimizando el SEO de la página web</p>
+
+		<p>Comencemos con un ejemplo concreto. Imagine que tiene una página sobre la película Avatar, una página con un enlace a un avance de la película, información sobre el director, etc. Su código HTML podría verse así:</p>		
+
+		<pre>
+		&lt;div&gt;
+		 &lt;h1&gt;Avatar&lt;/h1&gt;
+		 &lt;span&gt;Director: James Cameron (born August 16, 1954)&lt;/span&gt;
+		 &lt;span&gt;Science fiction&lt;/span&gt;
+		 &lt;a href="../movies/avatar-theatrical-trailer.html"&gt;Trailer&lt;/a&gt;
+		&lt;/div&gt;
+		</pre>
+				
+<!-- 
+		<div>
+		 <h1> Avatar </h1>
+		 <span> Director: James Cameron (nacido el 16 de agosto de 1954) </span>
+		 <span> Ciencia ficción </span>
+		 <a href="../movies/avatar-theatrical-trailer.html"> Tráiler </a>
+		</div>
+ -->
+
+		<p>
+			Para comenzar, identifique la sección de la página que trata "sobre" la película Avatar. Para hacer esto, agregue el elemento itemscope a la etiqueta HTML que incluye información sobre el elemento, de esta manera:
+		</p>
+
+		<pre>
+		&lt;div <strong>itemscope</strong>&gt;
+		  &lt;h1&gt;Avatar&lt;/h1&gt;
+		  &lt;span&gt;Director: James Cameron (born August 16, 1954) &lt;/span&gt;
+		  &lt;span&gt;Science fiction&lt;/span&gt;
+		  &lt;a href="../movies/avatar-theatrical-trailer.html"&gt;Trailer&lt;/a&gt;
+		&lt;/div&gt;
+		</pre>
+
+<!-- 		<div itemscope >
+		  <h1> Avatar </h1>
+		  <span> Director: James Cameron (nacido el 16 de agosto de 1954) </span>
+		  <span> Ciencia ficción </span>
+		  <a href="../movies/avatar-theatrical-trailer.html"> Tráiler </a>
+		</div> -->
+
+		<p>Al agregar itemscope, está especificando que el HTML contenido en el  <code>&lt;div&gt;...&lt;/div&gt;</code> bloque es sobre un elemento en particular.
+
+		Pero no es tan útil especificar que se está discutiendo un elemento sin especificar qué tipo de elemento es. Puede especificar el tipo de elemento utilizando el itemtypeatributo inmediatamente después de itemscope.</p>
+
+
+		<pre>&lt;div itemscope itemtype ="http://schema.org/Movie"&gt;
+		  &lt;h1 itemprop="name"&gt;Avatar&lt;/h1&gt;
+		  &lt;div <strong>itemprop="director" itemscope itemtype="http://schema.org/Person"</strong>&gt;
+		  Director: &lt;span itemprop="name"&gt;James Cameron&lt;/span&gt;<br> (born &lt;span <strong>itemprop="birthDate"</strong>&gt;August 16, 1954&lt;/span&gt;)
+		  &lt;/div&gt;
+		  &lt;span itemprop="genre">Science fiction&lt;/span&gt;
+		  &lt;a href="../movies/avatar-theatrical-trailer.html" itemprop="trailer"&gt;Trailer&lt;/a&gt;
+		&lt;/div&gt;</pre>
+
+<!-- 		<div itemscope itemtype = "http://schema.org/Movie">
+		  <h1 itemprop = "name"> Avatar </h1>
+		  <div itemprop = "director" itemscope itemtype = "http://schema.org/Person" >
+		  Director: <span itemprop = "name"> James Cameron </span> (nacido <span itemprop = "birthDate" > 16 de agosto de 1954 </span>)
+		  </div>
+		  <span itemprop = "género"> Ciencia ficción </span>
+		  <a href="../movies/avatar-theatrical-trailer.html" itemprop="trailer"> Tráiler </a>
+		</div> -->
+
+		<p>Esto especifica que el elemento contenido en el div es de hecho una película, como se define en la jerarquía de tipos de schema.org. Los tipos de elementos se proporcionan como URL, en este caso http://schema.org/Movie.</p>
+
+		<p>Para validar que ha quedado bien podemos usar la <strong> "Herramienta de Datos estructurados de Google"</strong></p>
+
+
+		<h3>OpenGraph</h3>
+		<p>Opengraph es el encargado del Posicionammiento y etiquetado en Facebook. <span>Podemos usar <a href="https://ogp.me/">ogp.me</a></span> para consultar como mostrar la información y <span><a href="https://developers.facebook.com/tools/debug/">Sharing debugger</a></span>para validarlo.</p>
+
+</article>
+
+<article>
+		<h2>11. Tablas</h2>
+		<p>Su función es tabular la información</p>
+		<table  border="1">
+			<caption>Horario de clases</caption>
+
+			<!-- Para dar diseño a una sola columna -->
+			<!-- Cada uno de los elementos col representa la columna de la tabla, se puede hacer de la forma 1 o para optimizar el atributo span-->
+
+			<colgroup>
+			<!-- Forma 1:  
+				<col>
+				<col>
+				<col>
+				<col>
+				<col style="background-color: yellow"> -->
+
+				<col span="4">
+				<col style="background-color: yellow;">
+
+			</colgroup>
+			<thead>
+				<tr>
+					<th>Lunes</th>
+					<th>Martes</th>
+					<th>Miércoles</th>
+					<th>Jueves</th>
+					<th>Viernes</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="2">HTMl</td>
+					<td>PHP</td>
+					<td rowspan="2">JavaScript</td>
+					<td>Python</td>
+					<td>CSS</td>
+
+				</tr>
+				<tr>
+		
+					<td>Go</td>
+		
+					<td>Big Data</td>
+					<td>Diseño UX</td>
+
+				</tr>
+				<tr>
+					<td colspan="5">Recreo</td>
+		
+				</tr>
+				<tr>
+					<td>Diseño</td>
+					<td>Algoritmos</td>
+					<td>SQL</td>
+					<td>Java</td>
+					<td>PWA</td>
+					
+				</tr>
+
+			</tbody>
+			<tfoot>
+				<tr style="background-color: pink;">
+					<td>6 créditos</td>
+					<td>5 créditos</td>
+					<td>2 créditos</td>
+					<td>1 créditos</td>
+					<td>4 créditos</td>
+					
+				</tr>				
+			</tfoot>	
+		
+		</table>
+
+		<p>Para agrupar celdas usamos rowspan, colspan</p>
+
+</article>
+
+
+<article>
+	<h2>12. Formularios</h2>
+
+		<form>
+			<!-- Agrupa campos -->
+			<fieldset>
+				<legend>Tus datos personales</legend>
+
+				<div>
+					<label for="username">
+						Ingresa tu usuario
+						<input type="text" name="username" id="username">
+					</label>
+				</div>
+
+				<div>
+					<label>
+						Ingresa tu contraseña
+						<input type="password" name="password" required>
+					</label>
+				</div>
+				
+			</fieldset> 
+
+			<fieldset>
+				<legend>Tus datos en plataforma</legend>
+		
+				<div>
+					<label>
+						Ingresa tu correo
+						<input type="email" name="email">
+					</label>
+				</div>
+				<div>
+					<label>
+						Ingresa tu fecha de nacimiento
+						<input type="date" name="date">
+					</label>
+				</div>
+
+					<div>
+					<label>
+						Ingresa la cantidad
+						<input type="number" name="sale" readonly value="2">
+					</label>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Tus pasatiempos</legend>
+				<div>
+					<label><input type="checkbox" name="">Deporte</label>
+					<label><input type="checkbox" name="">Arte</label>
+					<label><input type="checkbox" name="">Baile</label>
+					<label><input type="checkbox" name="">Cine</label>
+
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Tu género</legend>
+				<div>
+					<!-- para opciones unicas poner el mismo valor en la etiqueta name -->
+					<label><input type="radio" name="gender">Hombre</label>
+					<label><input type="radio" name="gender">Mujer</label>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Tu país</legend>
+				<div>
+					<label for="country">Escoge una opción</label>
+
+					<!-- el atributo multiple selecciona varios -->
+					<select name="country" id="country" >
+						<optgroup label="América">
+							<option value="co">Colombia</option>
+							<option value="pe">Perú</option>
+						</optgroup>
+
+						<optgroup label="Europa">
+							<option value="tl">Italia</option>
+							<option value="es">España</option>
+						</optgroup>
+					
+					</select>
+					<textarea name="mensaje" cols="15" rows="5" placeholder="Escríbenos"></textarea>
+				</div>
+			</fieldset>
+
+			<input type="submit" name="enviar" value="Iniciar sesión">
+			<!-- value es el dato del formulario -->
+
+		</form>
+</article>
+
+<article>
+	<h2>13. Multimedia</h2>
+		<!--  Los codecs son los parametros por lo cual un video se modifica, el mas usadoes codec h264 -->
+		<!-- Atributos: autoplay -->
+		<video id="video" src="https://www.youtube.com/watch?v=KFmG6XYPSAU" controls  poster="img/poster.jpeg"></video>
+		<button id="play">Play</button>
+		<button id="pause">Pause</button>
+
+		<audio src="https://www.youtube.com/watch?v=KFmG6XYPSAU" controls></audio>
+
+	<!-- Herramientas de audio y video
+		videojs
+		flowplayer -->
+</article>
+
+<article>
+	<h2>14. Interactividad </h2>
+	<p>Existen elementos HTML que traen por sí mismos elementos interactivos como son la etiqueta <code>details</code> y la etiqueta <code>dialog</code>.</p>
+		<details>
+			<!-- Crea un acordeón -->
+			<summary>HTML (Clic aquí)</summary>
+			<p>Lenguaje de marcado hipertexto</p>
+		</details>
+
+		<dialog  id="modal" >
+			<h2>Curso HTML</h2>
+			<p>Precio: 2.99</p>
+		</dialog>
+
+		<button id="boton">Abrir Modal</button>
+		<button id="close">Cerrar Modal</button>
+</article>
+
+<article>
+	<h2>15. Contenido Embebido</h2>
+	<p>Por medio de iframe se puede insertar contenido de otras fuentes, estas ya hacen el proceso de codificación.</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/xMuUaELVHOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		<!-- iframe: Premite traer una página web con toda su estructura-->	
+		<!-- Páginas:
+		- wufoo
+		- disqus.com -->
+</article>
+
+<article>
+	<h2>16. Herramientas</h2>
+	<a href="https://www.w3.org/">W3C: Reglas de HTML y CSS </a> <br>
+	<a href="https://html.spec.whatwg.org/multipage/">WhatWG: Reglas de HTML y CSS </a><br>
+	<a href="https://caniuse.com/">Soporte de los navegadores </a><br>
+	<a href="https://developer.mozilla.org/es/">Documentación de Mozilla </a><br>
+</article>
+
+</main> 
+
+
+<!-- Este codigo muestra en consola el dato ingresado -->	
+<script type="text/javascript">
+	document.getElementById('username').addEventListener('keyup',e => {console.log(e.target.value)})
+	
+</script>
+<script type="text/javascript">
+	const video=document.getElementById('video')
+	const play=document.getElementById('play')
+	const pause=document.getElementById('pause')
+
+	play.addEventListener('click',() => {video.play()})
+	pause.addEventListener('click',() => {video.pause()})
+	
+</script>
+
+<script type="text/javascript">
+	const boton=document.getElementById('boton')
+	const modal=document.getElementById('modal')
+	const close=document.getElementById('close')
+
+
+	boton.addEventListener('click',() => {modal.setAttribute('open','true')})
+	/*Para cerrarlo*/
+	close.addEventListener('click',() => {modal.removeAttribute('open')})
+	
+</script>
+
+</body>
+</html>
